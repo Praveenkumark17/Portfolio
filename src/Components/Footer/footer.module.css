@@ -1,0 +1,12 @@
+.footer_main{
+    height: 8vh;
+    background-color: #1d0032;
+    color: #f2deff;
+    transition: .5s;
+}
+.footer_main_dark{
+    height: 8vh;
+    background-color: #f2deff;
+    color: #1d0032;
+    transition: .5s;
+}

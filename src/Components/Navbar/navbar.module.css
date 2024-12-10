@@ -1,0 +1,85 @@
+.navbar {
+  background-color: rgb(242, 222, 255);
+  transition: background-color .5s, backdrop-filter .5s;
+}
+.navbar_dark{
+    transition: .5s;
+    background-color: rgb(29, 0, 50);
+}
+
+.blur {
+  backdrop-filter: blur(4px);
+  background-color: rgba(232, 197, 255, 0.4);
+  transition: background-color .5s;
+}
+.blur_dark{
+    backdrop-filter: blur(4px);
+    background-color: rgba(41, 0, 71, 0.4);
+    transition: background-color .5s;
+}
+
+.navbar_brand{
+    color: rgb(33, 0, 63);
+}
+.navbar_brand_dark{
+    color: rgb(230, 205, 254);
+}
+
+.navbar_text {
+  color: rgb(33, 0, 63);
+}
+.navbar_text_dark{
+    color: rgb(230, 205, 254);
+}
+
+.navbar_text:hover{
+    color: rgb(104, 60, 145);
+}
+
+.nav_toggle_btn{
+    border: none;
+    background-color: transparent;
+    color: rgb(33, 0, 63);
+}
+.nav_toggle_btn_dark{
+    border: none;
+    background-color: transparent;
+    color: #f2deff;
+}
+
+.outer_theme{
+    height: 20px;
+    width: 40px;
+    background-color: rgb(209, 159, 255);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.inner_theme{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    transition: left .5s;
+}
+.dark_theme{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    left: calc(40px - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    transition: left .5s;
+}

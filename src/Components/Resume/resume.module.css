@@ -1,0 +1,88 @@
+.pdfimg{
+    height: 170vh;
+    width: 900px;
+    background-image: url(../images/Praveenkumar_K_Resume.jpg);
+    background-size: cover;
+    border: 5px solid #1d0032;
+}
+.pdfimg_dark{
+    height: 170vh;
+    width: 900px;
+    background-image: url(../images/Praveenkumar_K_Resume.jpg);
+    background-size: cover;
+    border: 5px solid #bb56ff;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #1d0032;
+    color: #f2deff;
+    margin: 20px 0;
+}
+.btn_dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #f2deff;
+    color: #1d0032;
+    margin: 20px 0;
+}
+
+/*Mobile View*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .pdfimg{
+        height: 85vh;
+        width: 400px;
+    }
+    .pdfimg_dark{
+        height: 85vh;
+        width: 400px;
+    }
+    .btn{
+        height: 45px;
+        width: 180px;
+    }
+    .btn_dark{
+        height: 45px;
+        width: 180px;
+    }
+}
+/*Tablet view*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .pdfimg{
+        height: 130vh;
+        width: 600px;
+    }
+    .pdfimg_dark{
+        height: 130vh;
+        width: 600px;
+    }
+    .btn{
+        height: 45px;
+        width: 180px;
+    }
+    .btn_dark{
+        height: 45px;
+        width: 180px;
+    }
+
+}
+/*small laptop view*/
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .pdfimg{
+        height: 160vh;
+        width: 750px;
+    }
+    .pdfimg_dark{
+        height: 160vh;
+        width: 750px;
+    }
+}

@@ -1,0 +1,108 @@
+.main{
+    color: #1d0032;
+    transition: .5s;
+}
+.main_dark{
+    color: #f2deff;
+    transition: .5s;
+}
+.box{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.title{
+    color: #b000d3;
+}
+.text{
+    text-align: justify;
+}
+.input{
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #f2deff;
+    border: 2px solid #1d0032;
+    padding-left: 20px;
+    transition: .5s;
+    color: #1d0032;
+}
+.input_dark{
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #1d0032;
+    border: 2px solid #b000d3;
+    padding-left: 20px;
+    transition: .5s;
+    color: #f2deff;
+}
+.input_dark::placeholder{
+    color: #f2deffae;
+}
+.textarea{
+    height: 200px;
+    padding: 10px 20px;
+    resize: none;
+}
+.btn{
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: #1d0032;
+    color: #f2deff;
+    transition: .5s;
+}
+.btn_dark{
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: #b000d3;
+    color: #fbf8fe;
+    transition: .5s;
+}
+.connect{
+    margin: 50px 0;
+}
+
+.connect_icon{
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1d0032;
+    transition: .5s;
+}
+.connect_icon a{
+    text-decoration: none;
+    color: #f2deff;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.connect_icon_dark{
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f2deff;
+    transition: .5s;
+}
+.connect_icon_dark a{
+    text-decoration: none;
+    color: #1d0032;
+    font-size: 25px;
+    transition: .5s;
+}
+
+/*Mobile View*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+}
+/*Tablet view*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+}
+/*small laptop view*/
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+
+}
