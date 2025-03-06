@@ -29,6 +29,9 @@
 .box3{
     justify-self: flex-end;
 }
+.box5{
+    justify-self: flex-end;
+}
 
 .card{
     width: 540px;
@@ -103,6 +106,10 @@
     background-image: url(../images/project4.png);
     background-position: center;
 }
+.img5{
+    background-image: url(../images/project5.png);
+    background-position: left;
+}
 
 
 /*Mobile View*/
@@ -133,6 +140,9 @@
     .box4{
         justify-self: center;
     }
+    .box5{
+        justify-self: center;
+    }
     .content{
         font-size: 15px;
     }
@@ -153,6 +163,9 @@
         justify-self: center;
     }
     .box4{
+        justify-self: center;
+    }
+    .box5{
         justify-self: center;
     }
     .card{

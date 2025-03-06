@@ -55,6 +55,23 @@ export default function About() {
                     <i class="fa-regular fa-badge-check me-2"></i>Learning New
                     Things
                   </p>
+
+                  <p className="mt-5">Soft Skills...</p>
+                  <p className="ms-lg-5 mb-0">
+                    <i class="fa-regular fa-badge-check me-2"></i>Quick Learner
+                  </p>
+                  <p className="ms-lg-5 mb-0">
+                    <i class="fa-regular fa-badge-check me-2"></i>Problem-Solving
+                  </p>
+                  <p className="ms-lg-5 mb-0">
+                    <i class="fa-regular fa-badge-check me-2"></i>Adaptability
+                  </p>
+                  <p className="ms-lg-5 mb-0">
+                    <i class="fa-regular fa-badge-check me-2"></i>Time Management
+                  </p>
+                  <p className="ms-lg-5 mb-0">
+                    <i class="fa-regular fa-badge-check me-2"></i>Teamwork
+                  </p>
                 </div>
               </div>
               <div className="col-lg-4 col-12 d-flex justify-content-center d-lg-block">

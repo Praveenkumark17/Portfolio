@@ -69,10 +69,10 @@ export default function Contact() {
             <div className={`${Contact_style.connect}`}>
             <p className="text-center fs-3 fw-semibold">Let's get in touch.</p>
             <div className="text-center mt-4">
-              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon}`}><a href="http://www.instagram.com" className="d-flex justify-content-center"><i className="fa-brands fa-instagram"></i></a></button>
-              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="http://www.twitter.com" className="d-flex justify-content-center"><i className="fa-brands fa-x-twitter"></i></a></button>
-              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="http://www.facebook.com" className="d-flex justify-content-center"><i className="fa-brands fa-facebook-f"></i></a></button>
-              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="http://www.linkedin.com" className="d-flex justify-content-center"><i className="fa-brands fa-linkedin-in"></i></a></button>
+              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon}`}><a href="https://www.instagram.com/praveen.krish.121/" target="_blank" rel="noreferrer noopener" className="d-flex justify-content-center"><i className="fa-brands fa-instagram"></i></a></button>
+              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="http://www.twitter.com" target="_blank" rel="noreferrer noopener" className="d-flex justify-content-center"><i className="fa-brands fa-x-twitter"></i></a></button>
+              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="http://www.facebook.com" target="_blank" rel="noreferrer noopener" className="d-flex justify-content-center"><i className="fa-brands fa-facebook-f"></i></a></button>
+              <button className={`${theme?Contact_style.connect_icon_dark:Contact_style.connect_icon} ms-3`}><a href="https://www.linkedin.com/in/praveenkumar-k-09b1b1219/" target="_blank" rel="noreferrer noopener" className="d-flex justify-content-center"><i className="fa-brands fa-linkedin-in"></i></a></button>
             </div>
           </div>
           </div>

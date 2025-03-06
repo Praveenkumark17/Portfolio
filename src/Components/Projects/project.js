@@ -37,14 +37,19 @@ export default function Project() {
                 robust and user-friendly experience.
               </div>
               <div className="text-center my-4">
-                <Link to={'https://github.com/Praveenkumark17/React_Full_Stack_Loginsystem'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  }`}
+                <Link
+                  to={
+                    "https://github.com/Praveenkumark17/React_Full_Stack_Loginsystem"
+                  }
+                  target="_blank"
                 >
-                  GitHub
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    }`}
+                  >
+                    GitHub
+                  </button>
                 </Link>
               </div>
             </div>
@@ -66,23 +71,29 @@ export default function Project() {
                 functionality and aesthetics.
               </div>
               <div className="text-center my-4">
-                <Link to={'https://github.com/Praveenkumark17/e-commerce_UI'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  }`}
+                <Link
+                  to={"https://github.com/Praveenkumark17/e-commerce_UI"}
+                  target="_blank"
                 >
-                  GitHub
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    }`}
+                  >
+                    GitHub
+                  </button>
                 </Link>
-                <Link to={'https://lovely-daffodil-5ce557.netlify.app/'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  } ms-3`}
+                <Link
+                  to={"https://lovely-daffodil-5ce557.netlify.app/"}
+                  target="_blank"
                 >
-                  Demo
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    } ms-3`}
+                  >
+                    Demo
+                  </button>
                 </Link>
               </div>
             </div>
@@ -105,23 +116,29 @@ export default function Project() {
                 devices.
               </div>
               <div className="text-center my-4">
-                <Link to={'https://github.com/Praveenkumark17/weather_api'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  }`}
+                <Link
+                  to={"https://github.com/Praveenkumark17/weather_api"}
+                  target="_blank"
                 >
-                  GitHub
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    }`}
+                  >
+                    GitHub
+                  </button>
                 </Link>
-                <Link to={'https://poetic-unicorn-57c545.netlify.app/project_3_js/'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  } ms-3`}
+                <Link
+                  to={"https://poetic-unicorn-57c545.netlify.app/project_3_js/"}
+                  target="_blank"
                 >
-                  Demo
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    } ms-3`}
+                  >
+                    Demo
+                  </button>
                 </Link>
               </div>
             </div>
@@ -143,23 +160,79 @@ export default function Project() {
                 optimal viewing on desktops, tablets, and mobile phones.
               </div>
               <div className="text-center my-4">
-              <Link to={'https://github.com/Praveenkumark17/landing_page'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  }`}
+                <Link
+                  to={"https://github.com/Praveenkumark17/landing_page"}
+                  target="_blank"
                 >
-                  GitHub
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    }`}
+                  >
+                    GitHub
+                  </button>
                 </Link>
-                <Link to={'https://ornate-kitten-27735f.netlify.app/'} target="_blank">
-                <button
-                  className={`${
-                    theme ? Project_style.btn_dark : Project_style.btn
-                  } ms-3`}
+                <Link
+                  to={"https://ornate-kitten-27735f.netlify.app/"}
+                  target="_blank"
                 >
-                  Demo
-                </button>
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    } ms-3`}
+                  >
+                    Demo
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div
+              className={`${Project_style.box5} ${
+                theme ? Project_style.card_dark : Project_style.card
+              }`}
+            >
+              <div
+                className={`${Project_style.img} ${Project_style.img5}`}
+              ></div>
+              <div className="text-center mt-3 fs-3">E-commerce web page</div>
+              <div className={`${Project_style.content} fw-semibold`}>
+                I developed a fully responsive E-commerce web application
+                leveraging the MERN stack, comprising MongoDB, Express.js,
+                React.js, and Node.js.This application showcases a comprehensive
+                product catalog, user authentication, an interactive shopping
+                cart, and seamless order management, including tracking and
+                history features. I built an efficient admin panel to manage
+                products, users, and orders. The application ensures optimal
+                viewing on desktops, tablets, and mobile devices, thanks to its
+                responsive design. RESTful APIs power backend operations,
+                providing robust and scalable database management with
+                MongoDB. Note: If You want to access this page must Signup ans
+                signIn
+              </div>
+              <div className="text-center my-4">
+                <Link
+                  to={"https://github.com/Praveenkumark17/E_commerce_react_app"}
+                  target="_blank"
+                >
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    }`}
+                  >
+                    GitHub
+                  </button>
+                </Link>
+                <Link
+                  to={"https://e-commerce-client-swart.vercel.app/"}
+                  target="_blank"
+                >
+                  <button
+                    className={`${
+                      theme ? Project_style.btn_dark : Project_style.btn
+                    } ms-3`}
+                  >
+                    Demo
+                  </button>
                 </Link>
               </div>
             </div>
