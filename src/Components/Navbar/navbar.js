@@ -126,17 +126,30 @@ export default function Navbar() {
                   </p>
                 </Link>
               </li>
-              <li className="nav-item me-3">
-                <Link to={"https://github.com/Praveenkumark17"} target="_blank" rel="noopener noreferrer" className={`nav-link ${Navstyle.navbar_text}`}>
-                  <p
-                    className={`m-0  ${
-                      theme ? Navstyle.navbar_text_dark : Navstyle.navbar_text
-                    }`}
-                  >
-                    <i class="fa-brands fa-github"></i>
-                  </p>
-                </Link>
-              </li>
+              <div className="d-flex">
+                <li className="nav-item me-3">
+                  <Link to={"https://github.com/Praveenkumark17"} target="_blank" rel="noopener noreferrer" className={`nav-link ${Navstyle.navbar_text}`}>
+                    <p
+                      className={`m-0  ${
+                        theme ? Navstyle.navbar_text_dark : Navstyle.navbar_text
+                      }`}
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </p>
+                  </Link>
+                </li>
+                <li className="nav-item me-3">
+                  <Link to={"https://www.behance.net/praveenkrish5"} target="_blank" rel="noopener noreferrer" className={`nav-link ${Navstyle.navbar_text}`}>
+                    <p
+                      className={`m-0  ${
+                        theme ? Navstyle.navbar_text_dark : Navstyle.navbar_text
+                      }`}
+                    >
+                      <i class="fa-brands fa-square-behance"></i>
+                    </p>
+                  </Link>
+                </li>
+              </div>
               <li className="nav-item">
                 <div className="d-flex align-items-center">
                   <p

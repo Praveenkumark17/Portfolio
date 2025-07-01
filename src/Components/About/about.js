@@ -110,6 +110,7 @@ export default function About() {
               <div className={`${About_style.skill_logo}`}><Icon icon="devicon-plain:eclipse" /></div>
               <div className={`${About_style.skill_logo}`}><Icon icon="fluent-mdl2:git-hub-logo" /></div>
               <div className={`${About_style.skill_logo}`}><Icon icon="devicon-plain:postman" /></div>
+              <div className={`${About_style.skill_logo}`}><Icon icon="file-icons:figma" /></div>
             </div>
           </div>
         </div>
