@@ -21,7 +21,7 @@ export default function Home() {
                     <span className={`${home_style.name}`}>Praveenkumar K</span>
                   </h1>
                   <h1 className={`${home_style.name} ${home_style.intro_title} mt-5`}>
-                    MERN Stack Developer
+                    Junior Developer
                   </h1>
                 </div>
               </div>
