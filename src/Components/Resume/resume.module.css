@@ -1,88 +1,181 @@
-.pdfimg{
-    height: 170vh;
-    width: 900px;
-    background-image: url(../images/Praveenkumar_K_Resume.jpg);
-    background-size: cover;
-    border: 5px solid #1d0032;
-}
-.pdfimg_dark{
-    height: 170vh;
-    width: 900px;
-    background-image: url(../images/Praveenkumar_K_Resume.jpg);
-    background-size: cover;
-    border: 5px solid #bb56ff;
+.resume_wrapper {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  min-height: 100vh;
 }
 
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 200px;
-    text-decoration: none;
-    background-color: #1d0032;
-    color: #f2deff;
-    margin: 20px 0;
-}
-.btn_dark{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 200px;
-    text-decoration: none;
-    background-color: #f2deff;
-    color: #1d0032;
-    margin: 20px 0;
+.title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
 }
 
-/*Mobile View*/
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .pdfimg{
-        height: 85vh;
-        width: 400px;
-    }
-    .pdfimg_dark{
-        height: 85vh;
-        width: 400px;
-    }
-    .btn{
-        height: 45px;
-        width: 180px;
-    }
-    .btn_dark{
-        height: 45px;
-        width: 180px;
-    }
+.subtitle {
+  color: var(--muted);
+  font-size: 1.2rem;
 }
-/*Tablet view*/
-@media only screen and (min-width: 481px) and (max-width: 768px){
-    .pdfimg{
-        height: 130vh;
-        width: 600px;
-    }
-    .pdfimg_dark{
-        height: 130vh;
-        width: 600px;
-    }
-    .btn{
-        height: 45px;
-        width: 180px;
-    }
-    .btn_dark{
-        height: 45px;
-        width: 180px;
-    }
 
+.resume_card {
+  background: var(--card);
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.05);
+  overflow: hidden;
 }
-/*small laptop view*/
-@media only screen and (min-width: 769px) and (max-width: 1200px){
-    .pdfimg{
-        height: 160vh;
-        width: 750px;
-    }
-    .pdfimg_dark{
-        height: 160vh;
-        width: 750px;
-    }
+
+.card_header {
+  padding: 1.5rem 2rem;
+  background: rgba(var(--primary-rgb, 99, 102, 241), 0.03);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.file_info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.file_icon {
+  color: var(--primary);
+}
+
+.file_info h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.file_info p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.download_btn_top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--background);
+  color: var(--foreground);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.download_btn_top:hover {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+/* Preview Section */
+.resume_preview {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1.4;
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+[data-theme='dark'] .resume_preview {
+  background: #0f172a;
+}
+
+.preview_image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.preview_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.resume_preview:hover .preview_overlay {
+  opacity: 1;
+}
+
+.view_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.resume_footer {
+  padding: 2rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.trust_badges {
+  display: flex;
+  gap: 1rem;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--background);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+
+.download_btn_bottom {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 20px var(--primary-glow);
+  transition: all 0.3s ease;
+}
+
+.download_btn_bottom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px var(--primary-glow);
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .card_header { justify-content: center; }
+  .resume_footer { padding: 1.5rem; }
 }
